@@ -85,7 +85,7 @@ class ChatScreen extends React.Component {
 }
 ```
 
-We can then add a button to our `HomeScreen` component that links to `ChatScreen` using the `routeName` `Chat`.
+We can then add a button to our `HomeScreen` component that links to `ChatScreen` using the `routeName` `Chat`. (Don't forget to import `View` and `Button` above for this to work correctly).
 
 ```js
 class HomeScreen extends React.Component {
